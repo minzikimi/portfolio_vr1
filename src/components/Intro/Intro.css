@@ -1,0 +1,74 @@
+.intro {
+    position: relative;
+    padding: 2em 1em;
+}
+
+.section-role {
+    font-size: 1.2em;
+    color: var(--clr-dark);
+    margin-bottom: 0.5em;
+    text-align: center;
+    letter-spacing: 0.5rem;
+}
+
+.intro-title {
+    letter-spacing: 0.05em;
+}
+.section-title--intro {
+    margin-bottom: 0.5rem; 
+  }
+.section-skill--intro {
+    letter-spacing: 0.03em;
+    margin-top:0;
+    font-size: 1.5rem;
+  }
+
+.skills-list {
+    background-color: var(--clr-accent);
+    padding: 0.2em;
+    border-radius: 3px;
+  }
+
+@media (min-width: 600px) {
+    .intro {
+        display: grid;
+        width: min-content;
+        margin: 0 auto;
+        grid-column-gap: 2em;
+        grid-template-areas:
+            "img role"
+            "img title"
+            "img subtitle";
+        grid-template-columns: min-content max-content;
+    }
+
+    .section-role {
+        grid-area: role;
+        text-align: left;
+        margin-bottom: 0;
+        align-self: end;
+    }
+
+    .intro__img {
+        grid-area: img;
+        min-width: 250px;
+        position: relative;
+        z-index: 2;
+        border-radius: 50%;
+    }
+
+    .intro-title {
+        letter-spacing: 0.05em;
+    }
+
+    .section-subtitle--intro {
+        align-self: start;
+        grid-column: -1 / 1;
+        grid-row: 3;
+        text-align: right;
+        position: relative;
+        left: -1.5em;
+        width: calc(100% + 1.5em);
+        margin-top: 1em;
+    }
+}

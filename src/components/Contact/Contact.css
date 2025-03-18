@@ -1,0 +1,63 @@
+/* Contact Me */
+
+.contact-me {
+    text-align: center;
+}
+
+.contact-me p {
+    margin-bottom: 1em;
+    font-size: 2rem;
+
+    span {
+        background-color: var(--clr-accent);
+        font-weight: bold; 
+        padding: 0.1em 0.2em;
+        border-radius: 3px; 
+    }
+}
+
+.contact-me a {
+    color: var(--clr-accent);   
+    text-decoration: none;
+}
+
+.contact-me a:hover {
+    text-decoration: underline;
+}
+
+.social-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
+    margin-bottom: 2em;
+
+    .icons {
+        width: 3em;  
+        height: 3emem;
+        display: block; 
+        padding: 0.5em; 
+    }
+
+    .icons:hover{
+        background-color: var(--clr-accent);
+        border-radius: 20px;
+    }
+}
+
+
+.email-link{
+    a{
+        text-decoration: none;
+        background-color: var(--clr-dark);
+        padding:1rem;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .contact-me p{
+        font-size: 1.5rem;
+    }
+}
