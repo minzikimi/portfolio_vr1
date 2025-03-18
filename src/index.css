@@ -49,7 +49,7 @@
 
 /* General Styles */
 body {
-    background-color: #F0F0F5;
+    background-color: #f4f4fa;
     color: var(--clr-dark);
     margin: 0;
     font-family: var(--ff-primary);

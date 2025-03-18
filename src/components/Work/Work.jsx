@@ -36,7 +36,7 @@ function Work() {
     },
     {
       title: "Bloom E-commerce",
-      description: "A mock e-commerce website featuring product listings fetched from the FakeStore API, along with cart functionality and a seamless checkout process.",
+      description: "A mock e-commerce featuring product listings fetched from the FakeStore API, along with cart functionality and a checkout process.",
       image: ecommerceImage,
       demoLink: "https://bloom-ecommerce-hi26.netlify.app/",
       githubLink: "https://github.com/minzikimi/e-commerce"
