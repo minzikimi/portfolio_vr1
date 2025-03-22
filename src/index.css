@@ -16,9 +16,14 @@
     src: url(./assets/font/NeueHaasDisplayMediu.ttf);
 }
 
+@font-face {
+    font-family: Baguede;
+    src: url(./assets/font/BaguedeRounded-Regular.otf)
+}
 /* Custom Properties (CSS Variables) */
 :root {
-    --ff-primary: "Okinesans", sans-serif;
+    /* --ff-primary: "Okinesans", sans-serif; */
+    --ff-primary: "Baguede", sans-serif;
     --ff-secondary: "NeueHaas", sans-serif;
 
     --fw-reg: 300;
