@@ -6,7 +6,7 @@ function Footer() {
     <footer>
       <div>
         <h1>
-          {'MINJI KIM 민지 킴'.split('').map((letter, index) => (
+          {'MINJI KIM'.split('').map((letter, index) => (
             <span key={index} className="wave-letter" style={{ '--i': index }}>{letter}</span>
           ))}
         </h1>
