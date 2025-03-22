@@ -10,12 +10,17 @@ footer {
     gap: 10rem;
     color: var(--clr-accent);
     margin-bottom: 0; 
-    padding:3rem;
+    padding:6rem;
 
     h1{
         letter-spacing: 0.25rem;
     }
 }   
+.wave-letter {
+    display: inline-block;
+    transform: translateY(calc(-10px + 5px * var(--i)));
+}
+
 
 @media (max-width: 820px) {
     footer {
@@ -39,3 +44,5 @@ footer {
         font-size: 1.2rem;
     }
 }
+
+
