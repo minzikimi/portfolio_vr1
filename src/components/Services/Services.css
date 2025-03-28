@@ -70,4 +70,7 @@
     .skills-icons {
         justify-content: center;
     }
+    .my-services{
+        border: 1px solid var(--clr-dark);
+    }
   }
