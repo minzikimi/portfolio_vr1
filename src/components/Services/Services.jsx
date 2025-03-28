@@ -8,7 +8,8 @@ import reactIcon from '../../assets/img/react.png';
 import nextjsIcon from '../../assets/img/nextjs-icon-svgrepo-com.svg';
 import typescriptIcon from '../../assets/img/typescript-icon-svgrepo-com.svg';
 import nodejsIcon from '../../assets/img/nodejs-logo-svgrepo-com.svg';
-import flutterIcon from '../../assets/img/flutter-svgrepo-com.svg';
+// import flutterIcon from '../../assets/img/flutter-svgrepo-com.svg';
+import mongoDbIcon from "../../assets/img/mongodb-logo.svg"
 import bookIcon from '../../assets/img/book-svgrepo-com.svg';
 import appleIcon from '../../assets/img/apple-svgrepo-com.svg';
 
@@ -26,11 +27,11 @@ function Services() {
             <img src={jsIcon} className="skills-icon" alt="javascript-icon" />
             <img src={cssIcon} className="skills-icon" alt="css-icon" />
             <img src={reactIcon} className="skills-icon" alt="react-icon" />
-            <p>in training..</p>
+            {/* <p>in training..</p> */}
             <img src={nextjsIcon} className="skills-icon" alt="next-icon" />
             <img src={typescriptIcon} className="skills-icon" alt="typescript-icon" />
             <img src={nodejsIcon} className="skills-icon" alt="nodejs-icon" />
-            <img src={flutterIcon} className="skills-icon" alt="flutter-icon" />
+            <img src={mongoDbIcon} className="skills-icon" alt="mongodb-icon" />
           </div>
         </div>
         <div className="service">
