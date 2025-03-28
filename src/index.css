@@ -22,8 +22,8 @@
 }
 /* Custom Properties (CSS Variables) */
 :root {
-    /* --ff-primary: "Okinesans", sans-serif; */
-    --ff-primary: "Baguede", sans-serif;
+    --ff-primary: "Okinesans", sans-serif;
+    /* --ff-primary: "Baguede", sans-serif; */
     --ff-secondary: "NeueHaas", sans-serif;
 
     --fw-reg: 300;
