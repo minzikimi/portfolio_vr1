@@ -1,11 +1,14 @@
 .my-work {
-    background-color: var(--color-secondary);
+    
     color: var(--color-light);
     text-align: center;
-    border: 10px dotted var(--clr-dark);
+    border: 2px solid var(--clr-dark);
+    border-radius: 5px;
     padding: 2em; 
 }
-
+.section-title--work{
+    margin-top:2.5rem;
+}
 .portfolio-list {
     display: grid; 
     grid-template-columns: repeat(2, 1fr); 
@@ -24,6 +27,7 @@
 .project-title {
     font-size: var(--fs-h3);
     margin-bottom: 0.5em;
+   
 }
 
 .portfolio__img {

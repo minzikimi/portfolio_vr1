@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Header.css';
-import ThemeToggle from '../ThemeToggle/ThemeToggle';
+// import ThemeToggle from '../ThemeToggle/ThemeToggle';
 
 function Header() {
   const [isNavOpen, setIsNavOpen] = useState(false);

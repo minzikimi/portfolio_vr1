@@ -17,7 +17,7 @@ function App() {
     [
       "linear-gradient(135deg, #ffffff, #f5f5ff, rgb(254, 251, 201))",
       "linear-gradient(135deg, #f7f7fa, rgb(240, 240, 255), rgb(245, 244, 235))",
-      "linear-gradient(135deg, #eaeafc, rgb(250, 250, 255), #FBF6B0)",
+      "linear-gradient(135deg, #eaeafc, rgb(250, 250, 255),rgb(247, 243, 190))",
       "linear-gradient(135deg, #f0f0ff, #f8f8ff, rgb(254, 251, 201))"
     ]
   );

@@ -1,16 +1,17 @@
 .my-services {
-    background-color: none;
     color: var(--clr-dark);
     text-align: center;
-    border: 10px dotted var(--clr-dark);
+    border: 2px solid var(--clr-dark);
     display: flex;
     flex-direction: column;
     gap:2em;
+    border-radius: 5px;
 }
 
 .section-title--services {
     color: var(--clr-dark);
     position: relative;
+    
 }
 
 .services {
