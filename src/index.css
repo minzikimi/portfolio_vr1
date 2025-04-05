@@ -26,8 +26,8 @@
     /* --ff-primary: "Baguede", sans-serif; */
     --ff-secondary: "NeueHaas", sans-serif;
 
-    --fw-reg: 300;
-    --fw-bold: 900;
+    --fw-reg: 200;
+    --fw-bold: 800;
 
     --clr-light: #fff;
     --clr-dark: #35337E;
@@ -118,11 +118,6 @@ h2 {
 
 h3 {
     font-size: var(--fs-h3);
-}
-
-p {
-    font-family: var(--ff-secondary);
-    color: var(--clr-text);
 }
 
 /* General Layout Container */

@@ -9,6 +9,9 @@ import weatherAppImage from '../../assets/img/screenshots/weather-app.png';
 import memeStrokeImage from '../../assets/img/screenshots/memestroke.png';
 import chromeAppImage from '../../assets/img/screenshots/my-chrome-app.png';
 import restaurantPageImage from '../../assets/img/screenshots/restaurant-page.png';
+import arrowIcon from "../../assets/img/arrow.svg";
+import repoIcon from "../../assets/img/repo.svg";
+import watchhubImage from "../../assets/img/screenshots/watchhub.png"
 
 function Work() {
   const projects = [
@@ -21,10 +24,18 @@ function Work() {
     },
     {
       title: "Caffeine Pulse",
-      description: "A personal caffeine intake tracker, combining a lightweight backend with a user-friendly React interface.",
+      description: "A personal caffeine intake tracker, combining a lightweight backend, and React interface.",
       image: caffeinePulseImage,
-      demoLink: "",
-      githubLink: "",
+      demoLink: "#",
+      githubLink: "#",
+      comingSoon: true
+    },
+    {
+      title: "WatchHub",
+      description: " TV show app inspired by Netflix, built with React, React Query, and Framer Motion. It showcases trending, top-rated, and airing shows, inspired by Netflix.",
+      image: watchhubImage,
+      demoLink: "#",
+      githubLink: "#",
       comingSoon: true
     },
     {
@@ -91,15 +102,27 @@ function Work() {
             <div className="project-links">
               {project.demoLink && (
                 <a href={project.demoLink} target="_blank" rel="noopener noreferrer" className="demo-link">
-                  {project.comingSoon ? "Live Demo (Coming Soon)" : "Live Demo"}
+                  {project.comingSoon ? (
+                    <>
+                      <img src={arrowIcon} alt="arrow icon" className="icon-arrow" />
+                      Live Demo (Coming Soon)
+                    </>
+                  ) : (
+                    <>
+                      <img src={arrowIcon} alt="arrow icon" className="icon-arrow" />
+                      Live Demo
+                    </>
+                  )}
                 </a>
               )}
-              {project.githubLink && (
-                <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="github-link">
-                  GitHub
-                </a>
-              )}
-            </div>
+        {project.githubLink && (
+          <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="github-link">
+            <img src={repoIcon} alt="repo icon" className="icon-repo" />
+            GitHub
+          </a>
+        )}
+      </div>
+
           </div>
         ))}
       </div>
