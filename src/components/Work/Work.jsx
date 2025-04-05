@@ -32,7 +32,7 @@ function Work() {
     },
     {
       title: "WatchHub",
-      description: " TV show app inspired by Netflix, built with React, React Query, and Framer Motion. It showcases trending, top-rated, and airing shows, inspired by Netflix.",
+      description: " TV show app inspired by Netflix, built with React, React Query, and Framer Motion. It showcases trending, top-rated, and airing shows.",
       image: watchhubImage,
       demoLink: "#",
       githubLink: "#",
