@@ -42,13 +42,14 @@
     transform: scale(1.05);
 }
 
-
+/* 
 .project-description {
     font-family: var(--ff-secondary);
     color: var(--clr-text);
     margin-bottom: 1em;
     text-align: left; 
-}
+    font-weight: 100;
+} */
 .project-links {
     display: flex;
     gap: 1em;

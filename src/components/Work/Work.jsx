@@ -35,7 +35,7 @@ function Work() {
     },
     {
       title: "New York Times Bestsellers",
-      description: "An application using Next.js to explore the New York Times Bestsellers list. It utilizes dynamic routing, server-side rendering (SSR), and CSS Modules for styling.",
+      description: "An app using Next.js to explore the New York Times Bestsellers list. It utilizes dynamic routing, server-side rendering (SSR), and CSS Modules for styling.",
       image: nybestsellerImage,
       demoLink: "https://nytimes-bestseller-beta.vercel.app",
       githubLink: "https://github.com/minzikimi/NYtimes-bestseller"
