@@ -1,7 +1,7 @@
 .my-services {
     color: var(--clr-dark);
     text-align: center;
-    border: 2px solid var(--clr-dark);
+    border: 1px solid var(--clr-dark);
     display: flex;
     flex-direction: column;
     gap:2em;
@@ -69,8 +69,5 @@
 
     .skills-icons {
         justify-content: center;
-    }
-    .my-services{
-        border: 1px solid var(--clr-dark);
     }
   }

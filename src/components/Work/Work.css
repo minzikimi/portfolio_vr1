@@ -2,7 +2,7 @@
     
     color: var(--color-light);
     text-align: center;
-    border: 2px solid var(--clr-dark);
+    border: 1px solid var(--clr-dark);
     border-radius: 5px;
     padding: 2em; 
 }
@@ -113,7 +113,5 @@
     .portfolio__item--wide {
       grid-column: auto; 
     }
-    .my-work{
-        border: 1px solid var(--clr-dark);
-    }
+  
 }

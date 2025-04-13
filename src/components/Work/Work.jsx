@@ -12,6 +12,9 @@ import restaurantPageImage from '../../assets/img/screenshots/restaurant-page.pn
 import arrowIcon from "../../assets/img/arrow.svg";
 import repoIcon from "../../assets/img/repo.svg";
 import watchhubImage from "../../assets/img/screenshots/watchhub.png"
+import caffitrakImage from '../../assets/img/screenshots/caffitrak.png';
+
+import nybestsellerImage from "../../assets/img/screenshots/nybestsellers.png"
 
 function Work() {
   const projects = [
@@ -23,20 +26,26 @@ function Work() {
       githubLink: "https://github.com/minzikimi/hyper-crypto"
     },
     {
-      title: "Caffeine Pulse",
-      description: "A personal caffeine intake tracker, combining a lightweight backend, and React interface.",
-      image: caffeinePulseImage,
+      title: "Caffitrak",
+      description: "A small backend app built using the MERN stack to help users track their daily caffeine intake. The front end is developed with React.",
+      image: caffitrakImage,
       demoLink: "#",
       githubLink: "#",
       comingSoon: true
     },
     {
+      title: "New York Times Bestsellers",
+      description: "An application using Next.js to explore the New York Times Bestsellers list. It utilizes dynamic routing, server-side rendering (SSR), and CSS Modules for styling.",
+      image: nybestsellerImage,
+      demoLink: "https://nytimes-bestseller-beta.vercel.app",
+      githubLink: "https://github.com/minzikimi/NYtimes-bestseller"
+    },
+    {
       title: "WatchHub",
       description: " TV show app inspired by Netflix, built with React, React Query, and Framer Motion. It showcases trending, top-rated, and airing shows.",
       image: watchhubImage,
-      demoLink: "#",
-      githubLink: "#",
-      comingSoon: true
+      demoLink: "https://meek-semolina-0c417d.netlify.app",
+      githubLink: "https://github.com/minzikimi/watchhub",
     },
     {
       title: "MediHub",
