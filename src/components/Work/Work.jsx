@@ -1,7 +1,6 @@
 import React from 'react';
 import './Work.css';
 import cryptoImage from '../../assets/img/screenshots/crypto.png';
-import caffeinePulseImage from '../../assets/img/screenshots/caffeinepulse.png';
 import medihubImage from '../../assets/img/screenshots/medihub.png';
 import ecommerceImage from '../../assets/img/screenshots/ecommerce.png';
 import teamProjectImage from '../../assets/img/screenshots/teamproject.png';
@@ -29,13 +28,12 @@ function Work() {
       title: "Caffitrak",
       description: "A small backend app built using the MERN stack to help users track their daily caffeine intake. The front end is developed with React.",
       image: caffitrakImage,
-      demoLink: "#",
-      githubLink: "#",
-      comingSoon: true
+      demoLink: "caffitrak-backend.vercel.app",
+      githubLink: "https://github.com/minzikimi/caffitrak",
     },
     {
       title: "New York Times Bestsellers",
-      description: "An app using Next.js to explore the New York Times Bestsellers list. It utilizes dynamic routing, server-side rendering (SSR), and CSS Modules for styling.",
+      description: "Next.js app to explore the New York Times Bestsellers list. It utilizes dynamic routing, server-side rendering (SSR), and CSS Modules for styling.",
       image: nybestsellerImage,
       demoLink: "https://nytimes-bestseller-beta.vercel.app",
       githubLink: "https://github.com/minzikimi/NYtimes-bestseller"
@@ -104,35 +102,38 @@ function Work() {
       <p className="section-subtitle section-subtitle--work">Some of my projects</p>
       <div className="portfolio-list">
         {projects.map((project, index) => (
-          <div className="portfolio-item" key={index}>
-            <img src={project.image} alt={project.title} className="portfolio__img" />
-            <h3 className="project-title">{project.title}</h3>
-            <p className="project-description">{project.description}</p>
-            <div className="project-links">
-              {project.demoLink && (
-                <a href={project.demoLink} target="_blank" rel="noopener noreferrer" className="demo-link">
-                  {project.comingSoon ? (
-                    <>
-                      <img src={arrowIcon} alt="arrow icon" className="icon-arrow" />
-                      Live Demo (Coming Soon)
-                    </>
-                  ) : (
-                    <>
-                      <img src={arrowIcon} alt="arrow icon" className="icon-arrow" />
-                      Live Demo
-                    </>
-                  )}
-                </a>
-              )}
-        {project.githubLink && (
-          <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="github-link">
-            <img src={repoIcon} alt="repo icon" className="icon-repo" />
-            GitHub
-          </a>
-        )}
-      </div>
-
-          </div>
+       <div className="portfolio-item" key={index}>
+       <div className="project-content">
+         <img src={project.image} alt={project.title} className="portfolio__img" />
+         <h3 className="project-title">{project.title}</h3>
+         <p className="project-description">{project.description}</p>
+       </div>
+     
+       <div className="project-links">
+         {project.demoLink && (
+           <a href={project.demoLink} target="_blank" rel="noopener noreferrer" className="demo-link">
+             {project.comingSoon ? (
+               <>
+                 <img src={arrowIcon} alt="arrow icon" className="icon-arrow" />
+                 Live Demo (Coming Soon)
+               </>
+             ) : (
+               <>
+                 <img src={arrowIcon} alt="arrow icon" className="icon-arrow" />
+                 Live Demo
+               </>
+             )}
+           </a>
+         )}
+         {project.githubLink && (
+           <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="github-link">
+             <img src={repoIcon} alt="repo icon" className="icon-repo" />
+             GitHub
+           </a>
+         )}
+       </div>
+     </div>
+     
         ))}
       </div>
     </section>
