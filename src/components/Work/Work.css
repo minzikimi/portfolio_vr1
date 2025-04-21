@@ -67,12 +67,9 @@
     justify-content: center;
     align-items: center;
     gap: 0.5em;
-    font-weight: 600;
     font-size: 0.9rem;
     padding: 0.75em 1em;
     border-radius: 8px;
-    background: linear-gradient(145deg, #7ff5dd, #68d9c6);
-    color: #111;
     text-decoration: none;
     transition: all 0.3s ease;
   }
@@ -92,7 +89,6 @@
  
   .demo-link,
   .github-link {
-    font-weight: var(--fw-bold);
     text-decoration: none;
     padding: 0.5em 1em;
     background: var(--clr-accent);
