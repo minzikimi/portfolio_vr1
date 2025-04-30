@@ -28,7 +28,7 @@ function Work() {
       title: "Caffitrak",
       description: "A small backend app built using the MERN stack to help users track their daily caffeine intake. The front end is developed with React.",
       image: caffitrakImage,
-      demoLink: "caffitrak-backend.vercel.app",
+      demoLink: "https://caffitrak-backend.vercel.app",
       githubLink: "https://github.com/minzikimi/caffitrak",
     },
     {
