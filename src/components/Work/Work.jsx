@@ -12,11 +12,18 @@ import arrowIcon from "../../assets/img/arrow.svg";
 import repoIcon from "../../assets/img/repo.svg";
 import watchhubImage from "../../assets/img/screenshots/watchhub.png"
 import caffitrakImage from '../../assets/img/screenshots/caffitrak.png';
-
+import tweeterImage from "../../assets/img/tweeter-not-x.png";
 import nybestsellerImage from "../../assets/img/screenshots/nybestsellers.png"
 
 function Work() {
   const projects = [
+    {
+      title: "ITS-TWEETER-NOT-X",
+      description: "A mock Twitter app built with Next.js, Tailwind CSS, and Prisma ORM.",
+      image: tweeterImage,
+      demoLink: "",
+      githubLink: "https://github.com/minzikimi/its-tweeter-not-x"
+    },
     {
       title: "Hyper Crypto",
       description: "A sleek cryptocurrency tracker built with React, providing real-time data from leading crypto APIs.",
