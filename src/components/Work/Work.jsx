@@ -12,11 +12,24 @@ import arrowIcon from "../../assets/img/arrow.svg";
 import repoIcon from "../../assets/img/repo.svg";
 import watchhubImage from "../../assets/img/screenshots/watchhub.png"
 import caffitrakImage from '../../assets/img/screenshots/caffitrak.png';
-import tweeterImage from "../../assets/img/tweeter-not-x.png";
+import tweeterImage from "../../assets/img/screenshots/tweeter-not-x.png";
 import nybestsellerImage from "../../assets/img/screenshots/nybestsellers.png"
+import busImage from "../../assets/img/screenshots/bus.png"
+import bmiCalcImage from "../../assets/img/screenshots/bmiCalculator.png";
+import lottoImage from "../../assets/img/screenshots/lotto.png"
+import cshartPlaceholder from "../../assets/img/screenshots/csharp-placeholder.png"
+import etchasketchImage from "../../assets/img/screenshots/etch-a-sketch.png"
+import smfLogo from "../../assets/img/screenshots/smf-logo.png";
 
 function Work() {
   const projects = [
+    {
+      title: "Fundraising Website",
+      description: "Ongoing client project for the Swedish Holocaust Museum. A fundraising platform built as part of a school collaboration, focused on accessibility and impactful design.",
+      image: smfLogo,
+      demoLink: "",
+      githubLink: "https://github.com/minzikimi/fundraiser-smf"
+    },
     {
       title: "ITS-TWEETER-NOT-X",
       description: "A mock Twitter app built with Next.js, Tailwind CSS, and Prisma ORM.",
@@ -47,7 +60,7 @@ function Work() {
     },
     {
       title: "WatchHub",
-      description: " TV show app inspired by Netflix, built with React, React Query, and Framer Motion. It showcases trending, top-rated, and airing shows.",
+      description: " TV show app built with React, React Query, and Framer Motion. It showcases trending, top-rated, and airing shows.",
       image: watchhubImage,
       demoLink: "https://meek-semolina-0c417d.netlify.app",
       githubLink: "https://github.com/minzikimi/watchhub",
@@ -100,8 +113,44 @@ function Work() {
       image: restaurantPageImage,
       demoLink: "https://minzikimi.github.io/restaurant-page/",
       githubLink: "https://github.com/minzikimi/restaurant-page"
+    },
+    {
+      title: "Etch-a-sketch",
+      description: "My first web app — a simple drawing grid built with HTML, CSS, and JavaScript. Inspired by the classic Etch-a-Sketch toy",
+      image: etchasketchImage,
+      demoLink: "minzikimi.github.io/etch-a-sketch/",
+      githubLink: "https://github.com/minzikimi/etch-a-sketch"
     }
   ];
+
+  const consoleProjects = [
+    {
+      title: "BMI Calculator",
+      description: "Windows Forms app in C# to calculate BMI based on user input.",
+      githubLink: "https://github.com/minzikimi/BMI-Calculator",
+      image: bmiCalcImage
+    },
+    {
+      title: "Bus Simulator",
+      description: "A console-based C# app to simulate bus operations like adding and sorting passengers — built to practice basic algorithms and data structures.",
+      githubLink: "https://github.com/minzikimi/expense-tracker",
+      image: busImage
+    },
+    {
+      title: "Zoo Simulator",
+      description: "A C# console app simulating a zoo, featuring visitor and zookeeper roles. Built with OOP principles like inheritance and encapsulation.",
+      githubLink: "https://github.com/minzikimi/zoo",
+      image: cshartPlaceholder
+    },
+  
+    {
+      title: "Lotto Simulator",
+      description: "C# console app that simulates a lottery draw with random number generation.",
+      githubLink: "",
+      image: lottoImage
+    }
+  ];
+  
 
   return (
     <section className="my-work" id="work">
@@ -141,6 +190,32 @@ function Work() {
        </div>
      </div>
      
+        ))}
+      </div>
+
+        {/* Console / C# Projects */}
+        <h2 className="section-title section-title--work extra-margin">Console Projects</h2>
+      <p className="section-subtitle section-subtitle--work">C# command-line apps & algorithm practice</p>
+      <div className="portfolio-list">
+        {consoleProjects.map((project, index) => (
+          <div className="portfolio-item" key={index}>
+            <div className="project-content">
+              <img src={project.image} alt={project.title} className="portfolio__img" />
+              <h3 className="project-title">{project.title}</h3>
+              <p className="project-description">{project.description}</p>
+            </div>
+            <div className="project-links">
+              <a
+                href={project.githubLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="github-link"
+              >
+                <img src={repoIcon} alt="repo icon" className="icon-repo" />
+                GitHub
+              </a>
+            </div>
+          </div>
         ))}
       </div>
     </section>

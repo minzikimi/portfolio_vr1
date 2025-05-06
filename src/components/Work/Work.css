@@ -107,6 +107,10 @@
     }
   }
   
+  .extra-margin {
+    margin-top: 8rem;
+  }
+  
 
 @media (max-width: 768px) {
     .portfolio-list {

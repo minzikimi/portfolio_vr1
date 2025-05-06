@@ -12,6 +12,11 @@ import nodejsIcon from '../../assets/img/nodejs-logo-svgrepo-com.svg';
 import mongoDbIcon from "../../assets/img/mongodb-logo.svg"
 import bookIcon from '../../assets/img/book-svgrepo-com.svg';
 import appleIcon from '../../assets/img/apple-svgrepo-com.svg';
+import tailwindIcon from "../../assets/img/tailwind.svg"
+import figmaIcon from "../../assets/img/figma-svgrepo-com.svg";
+import visualstudioIcon from "../../assets/img/visual-studio-svgrepo-com.svg"
+import gitIcon from "../../assets/img/git-svgrepo-com.svg";
+import visualstudiocodeIcon from "../../assets/img/visual-studio-code-svgrepo-com.svg";
 
 function Services() {
   return (
@@ -20,7 +25,7 @@ function Services() {
       <div className="services">
         <div className="service">
           <h3>User-Focused Front-End Development</h3>
-          <p>I create intuitive and engaging user interfaces. My background in hospitality allows me to anticipate user needs and deliver exceptional digital experiences.</p>
+          <p>I create intuitive and engaging user interfaces. My background in communication and hospitality allows me to anticipate user needs and deliver exceptional digital experiences.</p>
           <div className="skills-icons">
             <img src={htmlIcon} className="skills-icon" alt="html-icon" />
             <img src={csharpIcon} className="skills-icon" alt="c-sharp-icon" />
@@ -32,6 +37,11 @@ function Services() {
             <img src={typescriptIcon} className="skills-icon" alt="typescript-icon" />
             <img src={nodejsIcon} className="skills-icon" alt="nodejs-icon" />
             <img src={mongoDbIcon} className="skills-icon" alt="mongodb-icon" />
+            <img src={tailwindIcon} className="skills-icon" alt="mongodb-icon" />
+            <img src={figmaIcon} className="skills-icon" alt="mongodb-icon" />
+            <img src={visualstudioIcon} className="skills-icon" alt="mongodb-icon" />
+            <img src={visualstudiocodeIcon} className="skills-icon" alt="mongodb-icon" />
+            <img src={gitIcon} className="skills-icon" alt="mongodb-icon" />
           </div>
         </div>
         <div className="service">
