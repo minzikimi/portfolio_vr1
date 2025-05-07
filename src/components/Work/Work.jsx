@@ -127,8 +127,14 @@ function Work() {
     {
       title: "BMI Calculator",
       description: "Windows Forms app in C# to calculate BMI based on user input.",
-      githubLink: "https://github.com/minzikimi/BMI-Calculator",
+      githubLink: "https://github.com/minzikimi/bankkonto-simulation-",
       image: bmiCalcImage
+    },
+    {
+      title: "Bank Simulator",
+      description: "A simple C# console app for basic bank account management like deposit, withdrawal, and balance check.",
+      githubLink: "https://github.com/minzikimi/BMI-Calculator",
+      image:  cshartPlaceholder
     },
     {
       title: "Bus Simulator",
