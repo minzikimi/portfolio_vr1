@@ -2,12 +2,18 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2em;
+    padding: 1.5em 2em;
     border-bottom: 2px solid var(--clr-black);
     background: var(--clr-white);
     position: sticky;
     top: 0;
     z-index: 99;
+}
+
+@media (max-width: 768px) {
+  header {
+    padding: 1em;
+  }
 }
 
 .logo-link {

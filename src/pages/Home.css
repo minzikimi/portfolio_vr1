@@ -31,7 +31,10 @@
   font-size: 1.5rem;
   color: var(--clr-gray-dark);
   margin-bottom: 3em;
-  min-height: 2em;
+  min-height: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .typing-text {
@@ -74,6 +77,7 @@
 
   .home-typing {
     font-size: 1.2rem;
+    min-height: 4em;
   }
 
   .home-nav {
@@ -87,5 +91,9 @@
 
   .home-nav-link:last-child {
     border-bottom: none;
+  }
+
+  .home-page {
+    padding: 1em;
   }
 }
