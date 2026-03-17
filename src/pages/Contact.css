@@ -1,0 +1,140 @@
+.contact-page {
+  min-height: 100vh;
+  padding: 4em 2em;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 3em;
+}
+
+.page-title {
+  font-size: 3rem;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.page-subtitle {
+  font-size: 1.2rem;
+  color: var(--clr-gray);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.contact-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3em;
+  margin-top: 3em;
+}
+
+.contact-info {
+  border: 2px solid var(--clr-black);
+  padding: 3em;
+}
+
+.contact-section {
+  margin-bottom: 3em;
+  padding-bottom: 3em;
+  border-bottom: 1px solid var(--clr-black);
+}
+
+.contact-section:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.contact-section h2 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 1em;
+  color: var(--clr-gray);
+}
+
+.contact-section p {
+  font-size: 1.1rem;
+  color: var(--clr-gray-dark);
+}
+
+.contact-link {
+  display: inline-block;
+  font-size: 1.1rem;
+  color: var(--clr-black);
+  text-decoration: none;
+  font-weight: var(--fw-medium);
+  border-bottom: 2px solid var(--clr-black);
+  transition: color 200ms ease;
+}
+
+.contact-link:hover {
+  color: var(--clr-gray);
+}
+
+.contact-social {
+  border: 2px solid var(--clr-black);
+  padding: 3em;
+}
+
+.contact-social h2 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 2em;
+  color: var(--clr-gray);
+}
+
+.social-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  gap: 1.5em;
+  padding: 1.5em;
+  text-decoration: none;
+  color: var(--clr-black);
+  font-weight: var(--fw-medium);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-bottom: 1px solid var(--clr-black);
+  transition: all 200ms ease;
+}
+
+.social-link:last-child {
+  border-bottom: none;
+}
+
+.social-link:hover {
+  background: var(--clr-black);
+  color: var(--clr-white);
+}
+
+.social-link:hover img {
+  filter: invert(1);
+}
+
+.social-link img {
+  width: 2em;
+  height: 2em;
+  transition: filter 200ms ease;
+}
+
+@media (max-width: 768px) {
+  .contact-content {
+    grid-template-columns: 1fr;
+    gap: 2em;
+  }
+
+  .contact-info,
+  .contact-social {
+    padding: 2em;
+  }
+}

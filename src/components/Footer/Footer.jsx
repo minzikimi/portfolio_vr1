@@ -12,7 +12,7 @@ function Footer() {
         </h1>
       </div>
       <div>
-        <h3>© Minji Kim 2025</h3>
+        <h3>© Minji Kim 2026</h3>
       </div>
     </footer>
   );

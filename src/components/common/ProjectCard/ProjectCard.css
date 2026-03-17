@@ -1,0 +1,122 @@
+.portfolio-item {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  background: var(--clr-white);
+  border: 2px solid var(--clr-white);
+  transition: border-color 200ms ease;
+}
+
+.portfolio-item:hover {
+  border-color: var(--clr-gray);
+}
+
+.project-content {
+  flex: 1;
+  padding: 1.5em;
+}
+
+.portfolio__img {
+  width: 100%;
+  height: auto;
+  margin: 0 0 1.5em 0;
+  display: block;
+  transition: opacity 200ms ease;
+}
+
+.portfolio__img:hover {
+  opacity: 0.8;
+}
+
+.project-tags {
+  display: flex;
+  gap: 0.5em;
+  margin-bottom: 1em;
+  flex-wrap: wrap;
+}
+
+.project-tag {
+  font-size: 0.7rem;
+  padding: 0.4em 0.8em;
+  border: 1px solid var(--clr-black);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: var(--fw-medium);
+  background: var(--clr-white);
+  transition: all 200ms ease;
+}
+
+.project-tag:hover {
+  background: var(--clr-black);
+  color: var(--clr-white);
+}
+
+.project-title {
+  font-size: var(--fs-h3);
+  margin-bottom: 0.5em;
+  color: var(--clr-black);
+  font-weight: var(--fw-bold);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.project-description {
+  font-family: var(--ff-secondary);
+  color: var(--clr-gray-dark);
+  margin-bottom: 1em;
+  text-align: left;
+  font-weight: var(--fw-reg);
+  line-height: 1.6;
+}
+
+.project-links {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 0;
+  padding: 0;
+  border-top: 2px solid var(--clr-black);
+}
+
+.demo-link,
+.github-link {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+  font-size: 0.85rem;
+  padding: 1em;
+  text-decoration: none;
+  background: var(--clr-white);
+  color: var(--clr-black);
+  font-weight: var(--fw-medium);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  transition: all 200ms ease;
+  border-right: 1px solid var(--clr-black);
+}
+
+.github-link {
+  border-right: none;
+}
+
+.demo-link:hover,
+.github-link:hover {
+  background: var(--clr-black);
+  color: var(--clr-white);
+}
+
+.demo-link:hover .icon-arrow,
+.demo-link:hover .icon-repo,
+.github-link:hover .icon-arrow,
+.github-link:hover .icon-repo {
+  filter: brightness(0) invert(1);
+}
+
+.icon-arrow,
+.icon-repo {
+  width: 14px;
+  height: 14px;
+  transition: filter 200ms ease;
+}

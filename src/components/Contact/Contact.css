@@ -2,28 +2,51 @@
 
 .contact-me {
     text-align: center;
+    padding: 4em 2em;
+    border: 2px solid var(--clr-black);
+}
+
+.contact-me h2 {
+    margin-bottom: 1em;
 }
 
 .contact-me p {
     margin-bottom: 1em;
-    font-size: 1.8rem;
-    font-weight:100;
-
-    span {
-        background-color: var(--clr-accent);
-        font-weight: bold; 
-        padding: 0.1em 0.2em;
-        border-radius: 3px; 
-    }
+    font-size: 1.2rem;
+    font-weight: var(--fw-reg);
+    color: var(--clr-gray-dark);
 }
 
 .contact-me a {
-    color: var(--clr-accent);   
+    color: var(--clr-black);
     text-decoration: none;
+    font-weight: var(--fw-medium);
+    transition: color 200ms ease;
 }
 
 .contact-me a:hover {
-    text-decoration: underline;
+    color: var(--clr-gray);
+}
+
+.email-link {
+    margin: 2em 0;
+}
+
+.email-link a {
+    display: inline-block;
+    background: var(--clr-black);
+    color: var(--clr-white);
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    transition: all 200ms ease;
+    border: 2px solid var(--clr-black);
+}
+
+.email-link a:hover {
+    background: var(--clr-white);
+    color: var(--clr-black);
 }
 
 .social-list {
@@ -31,34 +54,20 @@
     padding: 0;
     display: flex;
     justify-content: center;
-    gap: 1.5em;
-    margin-bottom: 2em;
-
-    .icons {
-        width: 3em;  
-        height: 3emem;
-        display: block; 
-        padding: 0.5em; 
-    }
-
-    .icons:hover{
-        background-color: var(--clr-accent);
-        border-radius: 20px;
-    }
+    gap: 2em;
+    margin-top: 3em;
 }
 
-
-.email-link{
-    a{
-        text-decoration: none;
-        background-color: var(--clr-dark);
-        padding:1rem;
-    }
-    
+.social-list .icons {
+    width: 2.5em;
+    height: 2.5em;
+    display: block;
+    padding: 0.5em;
+    border: 2px solid var(--clr-black);
+    transition: all 200ms ease;
 }
 
-@media (max-width: 768px) {
-    .contact-me p{
-        font-size: 1.5rem;
-    }
+.social-list .icons:hover {
+    background: var(--clr-black);
+    filter: invert(1);
 }

@@ -1,34 +1,41 @@
 .intro {
     position: relative;
-    padding: 2em 1em;
+    padding: 4em 1em;
 }
 
 .section-role {
-    font-size: 1.2em;
-    color: var(--clr-dark);
+    font-size: 0.9rem;
+    color: var(--clr-gray);
     margin-bottom: 0.5em;
     text-align: center;
-    letter-spacing: 0.5rem;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+    font-weight: var(--fw-medium);
 }
 
 .intro-title {
     letter-spacing: 0.05em;
 }
-.section-title--intro {
-    margin-bottom: 0.5rem; 
 
-  }
+.section-title--intro {
+    margin-bottom: 0.5rem;
+    color: var(--clr-black);
+}
+
 .section-skill--intro {
-    letter-spacing: 0.03em;
-    margin-top:0;
-    font-size: 1.5rem;
-  }
+    letter-spacing: 0.02em;
+    margin-top: 0;
+    font-size: 1.3rem;
+    color: var(--clr-gray-dark);
+    min-height: 2em;
+}
 
 .skills-list {
-    background-color: var(--clr-accent);
-    padding: 0.2em;
-    border-radius: 3px;
-  }
+    color: var(--clr-black);
+    font-weight: var(--fw-medium);
+    border-bottom: 2px solid var(--clr-black);
+    padding-bottom: 0.1em;
+}
 
 @media (min-width: 600px) {
     .intro {
@@ -55,7 +62,7 @@
         min-width: 250px;
         position: relative;
         z-index: 2;
-        border-radius: 50%;
+        border: 3px solid var(--clr-black);
     }
 
     .intro-title {
