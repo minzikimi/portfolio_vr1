@@ -16,7 +16,7 @@ import smfLogo from '../assets/img/screenshots/smf-logo.png';
 export const webProjects = [
   {
     title: "Fundraising Website",
-    description: "Ongoing client project for the Swedish Holocaust Museum. A fundraising platform built as part of a school collaboration, focused on accessibility and impactful design.",
+    description: "Client project for the Swedish Holocaust Museum. A fundraising platform built as part of a school collaboration, focused on accessibility and impactful design.",
     image: smfLogo,
     demoLink: "https://fundraiser-smf.vercel.app/",
     githubLink: "https://github.com/minzikimi/fundraiser-smf",
