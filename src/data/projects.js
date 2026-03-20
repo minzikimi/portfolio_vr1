@@ -10,14 +10,12 @@ import watchhubImage from '../assets/img/screenshots/watchhub.png';
 import caffitrakImage from '../assets/img/screenshots/caffitrak.png';
 import tweeterImage from '../assets/img/screenshots/tweeter-not-x.png';
 import nybestsellerImage from '../assets/img/screenshots/nybestsellers.png';
-import etchasketchImage from '../assets/img/screenshots/etch-a-sketch.png';
-import smfLogo from '../assets/img/screenshots/smf-logo.png';
 
 export const webProjects = [
   {
     title: "Fundraising Website",
     description: "Client project for the Swedish Holocaust Museum. A fundraising platform built as part of a school collaboration, focused on accessibility and impactful design.",
-    image: smfLogo,
+    image: teamProjectImage,
     demoLink: "https://fundraiser-smf.vercel.app/",
     githubLink: "https://github.com/minzikimi/fundraiser-smf",
     tags: ["Frontend", "React"]
@@ -120,7 +118,7 @@ export const webProjects = [
   {
     title: "Etch-a-sketch",
     description: "My first web app — a simple drawing grid built with HTML, CSS, and JavaScript. Inspired by the classic Etch-a-Sketch toy",
-    image: etchasketchImage,
+    image: chromeAppImage,
     demoLink: "https://minzikimi.github.io/etch-a-sketch/",
     githubLink: "https://github.com/minzikimi/etch-a-sketch",
     tags: ["Frontend", "JavaScript"]
